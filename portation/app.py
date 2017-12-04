@@ -1,7 +1,7 @@
 from django.conf.urls import url
 from oscar.core.application import Application
 
-from g_intim.portation.views import ImportView, ExportView
+from portation.views import ImportView, ExportView
 
 
 class PortationDashboardApplication(Application):
