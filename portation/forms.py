@@ -7,7 +7,7 @@ from oscar.apps.catalogue.models import ProductClass
 class ImportForm(forms.Form):
 
     file = forms.FileField(
-        label=_('File with backup'),
+        label=_('File for import'),
     )
 
 

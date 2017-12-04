@@ -6,10 +6,10 @@ from django.contrib import messages
 
 from openpyxl.writer.excel import save_virtual_workbook
 
-from portation.forms import ImportForm
-from portation.forms import ExportForm
-from portation.exporters import CatalogueExporter
-from portation.importers import CatalogueImporter
+from g_intim.portation.forms import ImportForm
+from g_intim.portation.forms import ExportForm
+from g_intim.portation.exporters import CatalogueExporter
+from g_intim.portation.importers import CatalogueImporter
 
 
 class ImportView(FormView):
